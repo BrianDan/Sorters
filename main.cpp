@@ -89,7 +89,7 @@ int main ()
 	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Merge Sort with 10000 elements.\n";
 	start = clock();
 	MSfiftyK.MergeSort();
-	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Merge Sort with 50000 elements.\n\n";
+	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Merge Sort with 100000 elements.\n\n";
 
 	start = clock();
 	IShundred.InsertionSort();
@@ -102,7 +102,7 @@ int main ()
 	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Insertion Sort with 10000 elements.\n";
 	start = clock();
 	ISfiftyK.InsertionSort();
-	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Insertion Sort with 50000 elements.\n\n";
+	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Insertion Sort with 100000 elements.\n\n";
 	
 	start = clock();
 	BShundred.BubbleSort();
@@ -115,7 +115,7 @@ int main ()
 	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Bubble Sort with 10000 elements.\n";
 	start = clock();
 	BSfiftyK.BubbleSort();
-	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Bubble Sort with 50000 elements.\n\n";
+	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Bubble Sort with 100000 elements.\n\n";
 	
 	start = clock();
 	QShundred.QuickSort();
@@ -128,7 +128,7 @@ int main ()
 	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Quick Sort with 10000 elements.\n";
 	start = clock();
 	QSfiftyK.QuickSort();
-	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Quick Sort with 50000 elements.\n\n";
+	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Quick Sort with 100000 elements.\n\n";
 	
 	return 0;
 }
