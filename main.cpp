@@ -28,7 +28,7 @@ int main ()
 	int BSfiftyKArr[50000];
 	
 	int QShundredArr[100];
-	int QSthousandArr[1000];
+	int QSthousandArr[1000]
 	int QStenKArr[10000];
 	int QSfiftyKArr[50000];
 	
