@@ -89,19 +89,6 @@ int main ()
 	start = clock();
 	MSfiftyK.MergeSort();
 	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Merge Sort with 50000 elements.\n\n";
-
-	start = clock();
-	IShundred.InsertionSort();
-	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Insertion Sort with 100 elements.\n";
-	start = clock();
-	ISthousand.InsertionSort();
-	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Insertion Sort with 1000 elements.\n";
-	start = clock();
-	IStenK.InsertionSort();
-	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Insertion Sort with 10000 elements.\n";
-	start = clock();
-	ISfiftyK.InsertionSort();
-	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Insertion Sort with 50000 elements.\n\n";
 	
 	start = clock();
 	BShundred.BubbleSort();
@@ -115,6 +102,19 @@ int main ()
 	start = clock();
 	BSfiftyK.BubbleSort();
 	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Bubble Sort with 50000 elements.\n\n";
+
+	start = clock();
+	IShundred.InsertionSort();
+	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Insertion Sort with 100 elements.\n";
+	start = clock();
+	ISthousand.InsertionSort();
+	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Insertion Sort with 1000 elements.\n";
+	start = clock();
+	IStenK.InsertionSort();
+	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Insertion Sort with 10000 elements.\n";
+	start = clock();
+	ISfiftyK.InsertionSort();
+	cout << setw(8) << ( ( clock() - start ) / (double)CLOCKS_PER_SEC ) * 1000 << " miliseconds total for Insertion Sort with 50000 elements.\n\n";
 	
 	start = clock();
 	QShundred.QuickSort();
