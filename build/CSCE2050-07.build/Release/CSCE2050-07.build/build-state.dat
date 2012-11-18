@@ -1,0 +1,131 @@
+TCSCE2050-07
+v5
+r1
+cCheck dependencies
+cCompileC build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/main.o /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/main.o /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/CSCE2050-07 normal x86_64
+cLd /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/CSCE2050-07 normal i386
+cCreateUniversalBinary /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07 normal "x86_64 i386"
+cGenerateDSYMFile /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07.dSYM /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005095E73100000000000000AA
+t1352001329
+s170
+
+N/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/MySorts.h
+c0000000050A6CAF20000000000000ADE
+t1353108210
+s2782
+
+N/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/CSCE2050-07
+t2
+s0
+
+N/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/CSCE2050-07.LinkFileList
+c0000000050A90C9C000000000000007B
+t1353256092
+s123
+
+N/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/CSCE2050-07
+t2
+s0
+
+N/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/CSCE2050-07.LinkFileList
+c0000000050A90C9C000000000000007D
+t1353256092
+s125
+
+N/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07
+t2
+s0
+
+N/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07.dSYM
+t2
+s0
+
+N/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/main.cpp
+c0000000050A7035600000000000014C9
+t1353122646
+s5321
+i"MySorts.h"
+i<iomanip>
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18b3791c4459b641^309c7f1c4459b641^---0#1#0#--18"Check dependencies36"1D0BEE8D-EFD7-40B8-AB0F-6BC3A219A828-
+
+CCompileC build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/main.o /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374948892.500913
+e374948893.073216
+r1
+xCompileC
+xbuild/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/main.o
+x/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/main.cpp5a63801c4459b641^44bf121d4459b641^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/main.cpp0000000000000000^2799"CompileC build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/main.o main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/CSCE2050-07-generated-files.hmap -I/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/CSCE2050-07-own-target-headers.hmap -I/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/CSCE2050-07-all-target-headers.hmap -iquote /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/CSCE2050-07-project-headers.hmap -I/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/DerivedSources/i386 -I/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/DerivedSources -F/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release -MMD -MT dependencies -MF /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/main.d --serialize-diagnostics /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/main.dia -c /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/main.cpp -o /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/main.o36"F25E7261-4807-4258-94C4-4A9D4C093139-
+
+CCompileC build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/main.o /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374948892.500904
+e374948893.073227
+r1
+xCompileC
+xbuild/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/main.o
+x/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/main.cpp3963801c4459b641^86c7121d4459b641^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/main.cpp0000000000000000^2813"CompileC build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/main.o main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/CSCE2050-07-generated-files.hmap -I/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/CSCE2050-07-own-target-headers.hmap -I/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/CSCE2050-07-all-target-headers.hmap -iquote /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/CSCE2050-07-project-headers.hmap -I/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/DerivedSources/x86_64 -I/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/DerivedSources -F/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release -MMD -MT dependencies -MF /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/main.dia -c /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/main.cpp -o /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/main.o36"092B7E7C-A9CA-409E-8AB0-7856CB7A5C5A-
+
+CCreateUniversalBinary /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07 normal "x86_64 i386"
+s374948893.455914
+e374948893.465738
+r1
+xCreateUniversalBinary
+x/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07
+xnormal
+xx86_64 i386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Create universal binary /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-0745f3741d4459b641^cd3a771d4459b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07000000000080d041^477"CreateUniversalBinary build/Release/CSCE2050-07 normal "x86_64 i386"    cd /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07    lipo -create /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/CSCE2050-07 /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/CSCE2050-07 -output /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-0736"37B82CB5-FEBA-4BE9-A1C7-508388A10A86-
+
+CGenerateDSYMFile /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07.dSYM /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07
+s374948893.472577
+e374948893.503928
+r1
+xGenerateDSYMFile
+x/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07.dSYM
+x/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Generating /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07.dSYM840f791d4459b641^f301811d4459b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07.dSYM000000000080d041^379"GenerateDSYMFile build/Release/CSCE2050-07.dSYM build/Release/CSCE2050-07    cd /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07 -o /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release/CSCE2050-07.dSYM36"95873A34-6E27-48ED-BA36-DFA92FD8A7C0-
+
+CLd /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/CSCE2050-07 normal i386
+s374948893.080162
+e374948893.449258
+r1
+xLd
+x/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/CSCE2050-07
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Link /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/CSCE2050-0776aa141d4459b641^b306731d4459b641^---0#0#0#--842"Ld build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/CSCE2050-07 normal i386    cd /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release -F/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release -filelist /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/CSCE2050-07.LinkFileList -mmacosx-version-min=10.8 -o /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/i386/CSCE2050-0736"E1DA1EEC-D95F-4703-9DB7-F7FA3F30E491-
+
+CLd /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/CSCE2050-07 normal x86_64
+s374948893.080157
+e374948893.449255
+r1
+xLd
+x/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/CSCE2050-07
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Link /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/CSCE2050-0750c6141d4459b641^e602731d4459b641^---0#0#0#--852"Ld build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/CSCE2050-07 normal x86_64    cd /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release -F/Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/Release -filelist /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/CSCE2050-07.LinkFileList -mmacosx-version-min=10.8 -o /Volumes/MyStuff/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Release/CSCE2050-07.build/Objects-normal/x86_64/CSCE2050-0736"0E0F1A20-542A-4AB4-8BEF-CEB8711F84DF-
+

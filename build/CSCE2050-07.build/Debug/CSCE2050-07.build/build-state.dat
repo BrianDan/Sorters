@@ -1,0 +1,66 @@
+TCSCE2050-07
+v7
+r0
+t313349070.228140
+cCheck dependencies
+cCompileC build/CSCE2050-07.build/Debug/CSCE2050-07.build/Objects-normal/x86_64/main.o /Users/BrianDan/Dropbox/Projects/CSCE2050-07/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/Debug/CSCE2050-07 normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Users/BrianDan/Dropbox/Projects/CSCE2050-07/MySorts.h
+c000000004CE0AC6C0000000000000ADE
+t1289792620
+s2782
+i<iostream>
+
+N/Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Debug/CSCE2050-07.build/Objects-normal/x86_64/CSCE2050-07.LinkFileList
+c000000004CFD1C4C000000000000007A
+t1291656268
+s122
+
+N/Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Debug/CSCE2050-07.build/Objects-normal/x86_64/main.o
+t1291656269
+s84728
+
+N/Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/Debug/CSCE2050-07
+t1291656270
+s21368
+
+N/Users/BrianDan/Dropbox/Projects/CSCE2050-07/main.cpp
+c000000004CF6979400000000000014C5
+t1291229076
+s5317
+i"MySorts.h"
+i<iomanip>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313349068#313349068#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/CSCE2050-07.build/Debug/CSCE2050-07.build/Objects-normal/x86_64/main.o /Users/BrianDan/Dropbox/Projects/CSCE2050-07/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s313349068.564344
+e313349069.815964
+r1
+xCompileC
+xbuild/CSCE2050-07.build/Debug/CSCE2050-07.build/Objects-normal/x86_64/main.o
+x/Users/BrianDan/Dropbox/Projects/CSCE2050-07/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/BrianDan/Dropbox/Projects/CSCE2050-07/main.cpp313349068#313349069#0(0"0(0#0#53"/Users/BrianDan/Dropbox/Projects/CSCE2050-07/main.cpp7809643567100341248#1429"    cd /Users/BrianDan/Dropbox/Projects/CSCE2050-07    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Debug/CSCE2050-07.build/CSCE2050-07-generated-files.hmap -I/Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Debug/CSCE2050-07.build/CSCE2050-07-own-target-headers.hmap -I/Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Debug/CSCE2050-07.build/CSCE2050-07-all-target-headers.hmap -iquote /Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Debug/CSCE2050-07.build/CSCE2050-07-project-headers.hmap -F/Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/Debug -I/Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/Debug/include -I/Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Debug/CSCE2050-07.build/DerivedSources/x86_64 -I/Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Debug/CSCE2050-07.build/DerivedSources -c /Users/BrianDan/Dropbox/Projects/CSCE2050-07/main.cpp -o /Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Debug/CSCE2050-07.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/Debug/CSCE2050-07 normal x86_64
+s313349069.816061
+e313349070.228016
+r1
+xLd
+x/Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/Debug/CSCE2050-07
+xnormal
+xx86_64
+lSLF07#2@73"Link /Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/Debug/CSCE2050-07313349069#313349070#0(0"0(0#0#0"8607344320#544"    cd /Users/BrianDan/Dropbox/Projects/CSCE2050-07    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/Debug -F/Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/Debug -filelist /Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/CSCE2050-07.build/Debug/CSCE2050-07.build/Objects-normal/x86_64/CSCE2050-07.LinkFileList -mmacosx-version-min=10.6 -o /Users/BrianDan/Dropbox/Projects/CSCE2050-07/build/Debug/CSCE2050-070#
+
